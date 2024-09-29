@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KreativKrümel - Kinderkunstgruppe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>KreativKrümel - Die Kinderkunstgruppe für kleine Künstler</h1>
+        <p>"Kunst erleben, staunen und entdecken - Für kleine Hände mit großen Ideen"</p>
+        <nav>
+            <ul>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#kursinfos">Kursinfos</a></li>
+                <li><a href="#anmeldung">Anmeldung</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero-Bereich -->
+    <section id="hero">
+        <img src="hero-image.jpg" alt="Kinder malen zusammen" />
+        <h2>Lasst uns die Welt bunt machen!</h2>
+        <p>Kreative Kunststunden für Kinder im Alter von 1,5 bis 3 Jahren</p>
+        <a href="#anmeldung" class="cta-button">Jetzt anmelden</a>
+    </section>
+
+    <!-- Über uns -->
+    <section id="about">
+        <h2>Wer wir sind</h2>
+        <p>
+            KreativKrümel ist eine liebevoll geführte Kunstgruppe für die Kleinsten. Hier können Kinder zwischen eineinhalb und drei Jahren in einer sicheren und anregenden Umgebung ihre kreative Seite entdecken. Im Mittelpunkt stehen das Erkunden von Farben, Texturen und Formen - immer spielerisch, stets fantasievoll. Bei uns geht es nicht um Perfektion, sondern um das gemeinsame Erleben von Kunst.
+        </p>
+        <img src="about-image.jpg" alt="Kursleiterin mit Kindern" />
+    </section>
+
+    <!-- Kursinformationen -->
+    <section id="kursinfos">
+        <h2>Unsere Kurse im Überblick</h2>
+        <h3>Für kleine Künstler von 1,5 bis 3 Jahren</h3>
+        <p>
+            In unserer Kinderkunstgruppe bieten wir wöchentliche Kunststunden, die speziell auf die Bedürfnisse und Fähigkeiten der Kleinsten abgestimmt sind. Die Kurse finden in einer warmen und unterstützenden Atmosphäre statt, in der Kinder mit Farben, Papier, Ton und vielem mehr experimentieren dürfen.
+        </p>
+        <ul>
+            <li><strong>Altersgruppe:</strong> 1,5 bis 3 Jahre (Begleitung durch eine Betreuungsperson erforderlich)</li>
+            <li><strong>Dauer:</strong> 45 Minuten pro Einheit</li>
+            <li><strong>Ort:</strong> Kreativatelier [Adresse einfügen]</li>
+            <li><strong>Termine:</strong> Jeden Dienstag und Donnerstag, 10:00 - 10:45 Uhr</li>
+            <li><strong>Kosten:</strong> [Preis einfügen], inklusive Materialien</li>
+        </ul>
+        <div class="highlight-box">
+            <h3>Warum KreativKrümel?</h3>
+            <ul>
+                <li>Fördert die Fein- und Grobmotorik</li>
+                <li>Stärkt die soziale Interaktion und das Miteinander</li>
+                <li>Kindersichere, ungiftige Materialien</li>
+                <li>Kreative Entfaltung ohne Leistungsdruck</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Galerie -->
+    <section id="galerie">
+        <h2>Kleine Künstler bei der Arbeit</h2>
+        <div class="gallery">
+            <img src="gallery-image1.jpg" alt="Kinder malen und lachen">
+            <img src="gallery-image2.jpg" alt="Kinder basteln mit Papier">
+            <img src="gallery-image3.jpg" alt="Bunte Handabdrücke">
+        </div>
+    </section>
+
+    <!-- Anmeldung -->
+    <section id="anmeldung">
+        <h2>Anmeldung & Kursgebühren</h2>
+        <p>
+            Melden Sie Ihr Kind noch heute an und geben Sie ihm die Möglichkeit, in eine Welt voller Farben und Kreativität einzutauchen! Füllen Sie das Anmeldeformular aus oder kontaktieren Sie uns für mehr Informationen.
+        </p>
+        <form action="submit-form.php" method="POST">
+            <label for="child-name">Name des Kindes:</label>
+            <input type="text" id="child-name" name="child-name" required>
+
+            <label for="birthdate">Geburtsdatum:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+
+            <label for="parent-name">Name der Betreuungsperson:</label>
+            <input type="text" id="parent-name" name="parent-name" required>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Telefonnummer:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="preferred-date">Wunschtermine:</label>
+            <select id="preferred-date" name="preferred-date">
+                <option value="tuesday">Dienstag</option>
+                <option value="thursday">Donnerstag</option>
+            </select>
+
+            <button type="submit">Jetzt anmelden</button>
+        </form>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+        <h2>Häufig gestellte Fragen</h2>
+        <div class="faq-item">
+            <h3>Müssen die Eltern während des Kurses anwesend sein?</h3>
+            <p>Ja, eine Begleitperson sollte während des Kurses anwesend sein, um Ihr Kind zu unterstützen.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Welche Kleidung sollten die Kinder tragen?</h3>
+            <p>Wir empfehlen Kleidung, die schmutzig werden darf. Schürzen sind ebenfalls vorhanden.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Wie groß sind die Gruppen?</h3>
+            <p>Jede Gruppe besteht aus maximal 8 Kindern, um eine individuelle Betreuung zu ermöglichen.</p>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt">
+        <h2>Kontaktieren Sie uns</h2>
+        <form action="contact-form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Betreff:</label>
+            <input type="text" id="subject" name="subject">
+
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Nachricht senden</button>
+        </form>
+        <p>
+            <strong>Adresse:</strong> [Adresse des Ateliers] <br>
+            <strong>Telefonnummer:</strong> [Telefonnummer] <br>
+            <strong>E-Mail:</strong> [E-Mail-Adresse]
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#kursinfos">Kursinfos</a></li>
+                <li><a href="#anmeldung">Anmeldung</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+        <p>© 2024 KreativKrümel. Alle Rechte vorbehalten.</p>
+    </footer>
+
+</body>
+
+</html>

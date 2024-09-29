@@ -1,0 +1,262 @@
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #2a7b9b;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Verspielte Schriftart für kindgerechte Stimmung */
+}
+
+p {
+    color: #555;
+}
+
+a {
+    color: #ff7043; /* Freundliches Orange für Links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #ffcc80; /* Sanftes, warmes Orange */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Hero-Bereich */
+#hero {
+    background-color: #ff7043; /* Freundliches Orange */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#hero img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#hero h2 {
+    font-size: 2.2em;
+    margin: 10px 0;
+}
+
+#hero p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #2a7b9b; /* Blau für klare Handlungsaufforderungen */
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #245f75;
+}
+
+/* Über uns Abschnitt */
+#about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #e3f2fd; /* Hellblau für eine ruhige Atmosphäre */
+}
+
+#about img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Kursinformationen */
+#kursinfos {
+    padding: 50px 20px;
+    background-color: #fff3e0; /* Weiches Orange für eine warme Atmosphäre */
+}
+
+.highlight-box {
+    background-color: #ffee58; /* Helles Gelb für wichtige Informationen */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.highlight-box ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Galerie */
+#galerie {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #c8e6c9; /* Helles Grün für eine natürliche und freundliche Atmosphäre */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery img {
+    max-width: 30%;
+    height: auto;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Anmeldung */
+#anmeldung {
+    padding: 50px 20px;
+    background-color: #f1f8e9; /* Helles Grün für eine frische Atmosphäre */
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #2a7b9b; /* Blau für den Abschicken-Button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+form button:hover {
+    background-color: #245f75;
+}
+
+/* FAQ */
+#faq {
+    padding: 50px 20px;
+    background-color: #e1bee7; /* Lila für einen kreativen Touch */
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    cursor: pointer;
+    color: #2a7b9b;
+}
+
+.faq-item p {
+    display: none;
+    padding: 10px 0;
+}
+
+/* Kontakt */
+#kontakt {
+    padding: 50px 20px;
+    background-color: #bbdefb; /* Hellblau für eine freundliche Atmosphäre */
+}
+
+#kontakt form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #2a7b9b; /* Dunkleres Blau für Kontrast */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+
+    .gallery img {
+        max-width: 45%;
+    }
+
+    form input, form select, form textarea {
+        width: calc(100% - 10px);
+    }
+
+    #hero h2 {
+        font-size: 1.8em;
+    }
+
+    #hero p {
+        font-size: 1.1em;
+    }
+}
